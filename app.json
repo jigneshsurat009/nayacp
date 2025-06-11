@@ -1,0 +1,40 @@
+
+{
+    "name": " ♡₊˚Sujal˚₊♡",
+    "description": "Download videos from various websites using this Telegram bot.",
+    "logo": "https://i.ibb.co/h1h6Pmfq/e31f7cff3217.jpg",
+    "keywords": [
+        "drm-video-dl",
+        "video-extract",
+        "pyrogram"
+    ],
+    "repository": "https://github.com/sujalchavdaa/MASTERsujal",
+    "success_url": "https://github.com/sujalchavdaa/MASTERsujal",
+    "stack": "container",
+    "env": {
+        "API_ID": {
+            "description": "Enter your Telegram API ID.",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Enter your Telegram API Hash.",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Enter your Telegram Bot Token.",
+            "required": true
+        },
+        "AUTH_USERS": {
+            "description": "Enter your authorized user IDs, e.g., 6883471516,5788624763,...(Seprate by Comma) ",
+            "required": true
+        }
+    },
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "standard-2x"
+        }
+    },
+    "addons": [],
+    "buildpacks": []
+}
